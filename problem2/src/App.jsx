@@ -52,13 +52,13 @@ function App() {
     return (
       <div
         key={e.id}
-        className="p-6 md:w-[40vw] rounded-md shadow-lg text-left text-lg font-semibold flex justify-between"
+        className="p-6 w-screen md:w-[40vw] rounded-md shadow-lg text-left text-lg font-semibold flex md:flex-row flex-col justify-between"
       >
         {e.name}
         <button
           name={e.id}
           onClick={del}
-          className="outline-none border-none bg-red-500 rounded-lg shadow-md px-2 text-white"
+          className="outline-none w-fit self-end border-none bg-red-500 rounded-lg shadow-md px-2 text-white"
         >
           delete
         </button>
