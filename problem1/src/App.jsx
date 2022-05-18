@@ -47,9 +47,8 @@ function App() {
   };
 
   return (
-    <div className="App">
-      <div className="container bg-gray-400 flex justify-center items-center min-h-screen w-screen max-w-screen p-6">
-        <div className="min-h-[80vh] max-h-[80vh] w-[80vw] bg-slate-100 rounded-3xl shadow-lg flex flex-col p-6">
+      <div className="flex justify-center items-center h-screen w-screen p-6">
+        <div className="min-h-[80vh] border w-[80vw] bg-slate-200 rounded-3xl shadow-lg flex flex-col p-6">
           <div className="text-4xl font-medium text-center">
             <h1>Character Counter</h1>
           </div>
@@ -84,7 +83,6 @@ function App() {
           </div>
         </div>
       </div>
-    </div>
   );
 }
 
