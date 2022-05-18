@@ -67,8 +67,7 @@ function App() {
   });
 
   return (
-    <div className="App">
-      <div className="container h-screen w-screen flex flex-col items-center p-4">
+      <div className="h-screen w-screen flex flex-col items-center p-4">
         <h1 className="text-4xl font-bold my-4">Add Star Wars Characters:</h1>
         <button
           className="outline-none border-none w-fit bg-blue-500 disabled:bg-gray-400 rounded-lg px-6 py-3 text-white font-bold"
@@ -79,7 +78,6 @@ function App() {
         </button>
         {loading ? loadScr : display}
       </div>
-    </div>
   );
 }
 
